@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ACQUA LOUNGE - Spas & Abris</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', sans-serif; color: #333; line-height: 1.6; background: #fff; }
+    header { background: #003366; color: white; padding: 20px 0; text-align: center; }
+    header h1 { font-size: 2.5rem; }
+    header p { font-size: 1rem; margin-top: 8px; }
+    nav a { color: white; margin: 0 10px; text-decoration: none; font-weight: bold; font-size: 0.9rem; }
+    .hero { background: #e0f7fa; padding: 60px 20px; text-align: center; }
+    .hero h2 { font-size: 2rem; margin-bottom: 20px; }
+    .cta { display: inline-block; margin-top: 20px; padding: 12px 24px; background: #00aaff; color: white; text-decoration: none; border-radius: 5px; }
+    .section { padding: 60px 20px; text-align: center; }
+    .section h2 { margin-bottom: 30px; font-size: 1.8rem; }
+    .grid { display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; }
+    .card { background: #f4f4f4; padding: 20px; width: 280px; border-radius: 8px; }
+    .card h3 { margin: 15px 0; }
+    .contact form { max-width: 500px; margin: auto; display: flex; flex-direction: column; gap: 15px; }
+    .contact input, .contact textarea { padding: 12px; border: 1px solid #ccc; border-radius: 5px; width: 100%; }
+    .contact button { padding: 12px; background: #00796b; color: white; border: none; border-radius: 5px; cursor: pointer; }
+    footer { background: #003366; color: white; text-align: center; padding: 20px 10px; font-size: 0.9rem; margin-top: 40px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>ACQUA LOUNGE</h1>
+    <p>Le bien-être à domicile, partout en France</p>
+    <nav>
+      <a href="#">Accueil</a>
+      <a href="#">Nos Spas</a>
+      <a href="#">Abris</a>
+      <a href="#">À propos</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Spas & Abris de Spa - Livraison partout en France</h2>
+    <p>Basé à Cournon d’Auvergne (63800), ACQUA LOUNGE est votre spécialiste du spa à domicile.</p>
+    <a href="#contact" class="cta">Demandez un devis gratuit</a>
+  </section>
+
+  <section class="section">
+    <h2>Nos Produits</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Spas</h3>
+        <p>Découvrez notre gamme de spas haut de gamme pour tous les besoins : détente, hydrothérapie, ou famille.</p>
+      </div>
+      <div class="card">
+        <h3>Abris de Spas</h3>
+        <p>Protégez et valorisez votre installation avec un abri fixe, coulissant ou motorisé, sur mesure.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section contact" id="contact">
+    <h2>Contactez-nous</h2>
+    <form>
+      <input type="text" placeholder="Votre nom" required>
+      <input type="email" placeholder="Votre e-mail" required>
+      <textarea rows="5" placeholder="Votre message" required></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 ACQUA LOUNGE – Spas & Abris | Basé à Cournon d’Auvergne (63800)</p>
+  </footer>
+
+</body>
+</html>
